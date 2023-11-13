@@ -1,4 +1,3 @@
-import React from 'react'
 import { TechIconStyled } from './TechIconStyled'
 import { Tech } from '../../types/tech'
 

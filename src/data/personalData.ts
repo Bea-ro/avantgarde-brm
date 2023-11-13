@@ -16,7 +16,7 @@ techs: [
     { icon: '/icons/react-icon.png', name: 'React' },
     { icon: '/icons/next-icon.png', name: 'Next' },
     { icon: '/icons/vite-icon.png', name: 'Vite' },
-    { icon: '/icons/vs-icon.png', name: 'Visual Studio Code' },
+    { icon: '/icons/vs-icon.png', name: 'VS Code' },
     { icon: '/icons/github-icon.png', name: 'Github' },
     { icon: '/icons/nodejs-icon.png', name: 'Node' },
     { icon: '/icons/express-icon.png', name: 'Express' },

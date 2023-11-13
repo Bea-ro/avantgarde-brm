@@ -1,12 +1,25 @@
 import { styled } from "styled-components";
 
-export const HomeStyled = styled.div`
+export const HomeStyled = styled.main`
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 20px
+
+}
+
 .text-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     text-align: center;
-    padding: 40px;
+    padding: 40px 0 30px 0;
 }
 
 .uppercase-text {
@@ -28,6 +41,16 @@ h3 {
 }
 
 .techs-list {
-    
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.projects-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px
 }
 `;

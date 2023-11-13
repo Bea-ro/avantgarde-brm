@@ -8,6 +8,7 @@ export const Global = createGlobalStyle`
 :root {
   --color-primary: #503295;
   --color-secondary: #FFFFFF;
+  --color-tertiary: #D2409C;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,7 +36,19 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding-left: 0
+}
+
 li {
  list-style-type: none;
+}
+
+.button {
+  border-radius: 39px;
+  border: 1px solid var(--color-secondary);
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 12px 22px
 }
 `;

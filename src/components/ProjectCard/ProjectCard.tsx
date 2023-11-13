@@ -1,13 +1,16 @@
-import React from 'react'
 import { ProjectCardStyled } from './ProjectCardStyled'
 import { Project } from '../../types/project'
 
 const ProjectCard = ({ project }: Props) => {
   return (
     <ProjectCardStyled>
+      <a href={project.projectURL} target="blank" rel="noopener noreferrer">
       <img src={project.image} alt={project.name}/>
-      <p>{project.name}</p>
-      <a target="blank" rel="noopener noreferrer">Ver proyecto</a>
+      <div className="project-name-link">
+      <p className="project-name">{project.name}</p>
+      <a className="project-link" target="blank" rel="noopener noreferrer">Ver proyecto »</a>
+      </div>
+      </a>
     </ProjectCardStyled>
   )
 }

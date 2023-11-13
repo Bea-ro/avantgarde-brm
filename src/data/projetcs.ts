@@ -2,8 +2,9 @@ import { Project } from '../types/project';
 
 export const projects: Project[] = [
   {
-    image: '/images/art-app-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689254/projects/art-app-project_qe6ael.png',
     name: 'Your Art API',
+    main: true,
     description: 'Art API editable from fronted.',
     date: 'September 2023',
     techs: ['Next', 'TypeScript', 'React', 'Styled-Components', 'Node', 'Express', 'MongoDB'],
@@ -18,8 +19,9 @@ export const projects: Project[] = [
     projectURL: 'https://your-art-app.vercel.app/',
   },
   {
-    image: '/images/triarock-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689256/projects/triarock-project_jdcfhr.png',
     name: 'TriaRock E-commerce',
+    main: true,
     description: 'MERN E-commerce.',
     date: 'July 2023',
     techs: ['React', 'JavaScript', 'CSS3', 'Node', 'Express', 'MongoDB'],
@@ -34,8 +36,9 @@ export const projects: Project[] = [
     projectURL: 'https://triarock.netlify.app/',
   },
   {
-    image: '/images/server-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689256/projects/server-project_m6r1qr.png',
     name: 'Complete Server',
+    main: false,
     description: 'Server with relational modeling and authentication system | Node, Express, MongoDB.',
     date: 'June 2023',
     techs: ['Node', 'Express', 'MongoDB'],
@@ -51,8 +54,9 @@ export const projects: Project[] = [
     projectURL: 'https://complete-server-rtc.onrender.com/api/authors',
   },
   {
-    image: '/images/relational-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689255/projects/relational-project_gxu6kn.png',
     name: 'Relational Modeling API',
+    main: false,
     description: 'Server with relational modeling | Node, Express, MongoDB.',
     date: 'June 2023',
     techs: ['Node', 'Express', 'MongoDB'],
@@ -67,8 +71,9 @@ export const projects: Project[] = [
     projectURL: 'https://github.com/Bea-ro/08-relational-modeling',
   },
   {
-    image: '/images/api-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689253/projects/api-project_bgwhp5.png',
     name: 'API Rest',
+    main: false,
     description: 'Server with art data | Node, Express, MongoDB.',
     date: 'May 2023',
     techs: ['Node', 'Express', 'MongoDB'],
@@ -81,8 +86,9 @@ export const projects: Project[] = [
     projectURL: 'https://github.com/Bea-ro/07-art-api',
   },
   {
-    image: '/images/games-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689254/projects/games-project_cza7zt.png',
     name: 'Games Hub',
+    main: true,
     description: 'Tic, tac, toe, Hangman and Sudoku | React, JavaScript.',
     date: 'May 2023',
     techs: ['React', 'JavaScript', 'CSS3', 'Testing'],
@@ -95,8 +101,9 @@ export const projects: Project[] = [
     projectURL: 'https://a-que-jugamos.netlify.app/',
   },
   {
-    image: '/images/weather-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689257/projects/weather-project_qfpb1e.png',
     name: 'Weather App',
+    main: false,
     description: 'Fetch to Weather Forecasting API | React, JavaScript.',
     date: 'April 2023',
     techs: ['React', 'JavaScript', 'CSS3'],
@@ -110,8 +117,9 @@ export const projects: Project[] = [
     projectURL: 'https://que-tiempo-hace-hoy.netlify.app/',
   },
   {
-    image: '/images/nasa-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689254/projects/nasa-project_nufb5g.png',
     name: 'The astronomical image of the day',
+    main: false,
     description: 'Fetch to NASA API | React, JavaScript.',
     date: 'April 2023',
     techs: ['React', 'JavaScript', 'CSS3'],
@@ -125,8 +133,9 @@ export const projects: Project[] = [
     projectURL: ' https://imagen-astronomica-del-dia.netlify.app/',
   },
   {
-    image: '/images/portfolio-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689254/projects/portfolio-project_x1wwak.png',
     name: 'Dynamic Portfolio',
+    main: false,
     description: 'Dynamic personal portfolio | JavaScript DOM.',
     date: 'March 2023',
     techs: ['JavaScript', 'CSS3'],
@@ -140,8 +149,9 @@ export const projects: Project[] = [
     projectURL: 'https://developer-portfolio-brm.netlify.app/',
   },
   {
-    image: '/images/dynamic-shop-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689254/projects/dynamic-shop-project_zinnql.png',
     name: 'Dynamic Shop',
+    main: false,
     description: 'Dynamic and responsive shop | JavaScript DOM.',
     date: 'February 2023',
     techs: ['JavaScript', 'CSS3'],
@@ -156,8 +166,9 @@ export const projects: Project[] = [
     projectURL: 'https://pc-componentes-filters-review.netlify.app/'
   },
   {
-    image: '/images/responsive-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689255/projects/responsive-project_viy4zu.png',
     name: 'Responsive Webpage',
+    main: false,
     description: 'Responsive webpage | HTML, CSS.',
     date: 'February 2023',
     techs: ['HTML5', 'CSS3'],
@@ -172,8 +183,9 @@ export const projects: Project[] = [
     projectURL: 'https://hm-home.netlify.app/',
   },
   {
-    image: '/images/star-wars-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689256/projects/star-wars-project_hpi76y.png',
     name: 'Star Wars',
+    main: false,
     description: 'Dynamic webpage getting data from and API | JavaScript',
     date: 'December 2022',
     techs: ['JavaScript', 'CSS3'],
@@ -187,8 +199,9 @@ export const projects: Project[] = [
     projectURL: 'https://my-star-wars-api.netlify.app',
   },
   {
-    image: '/images/color-flipper-project.png',
+    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689253/projects/color-flipper-project_neopmb.png',
     name: 'Color Flipper',
+    main: false,
     description: 'Dynamic color flipper | JavaScript, Vite.',
     date: 'December 2022',
     techs: ['CSS3', 'JavaScript'],
