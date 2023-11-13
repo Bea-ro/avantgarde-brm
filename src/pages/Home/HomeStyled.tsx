@@ -14,6 +14,11 @@ padding: 20px
 
 }
 
+.personal-img {
+    height: 40vh;
+    border-radius: 50%
+}
+
 .text-container {
     display: flex;
     flex-direction: column;
@@ -29,13 +34,6 @@ letter-spacing: 2.1px;
 padding: 30px
 }
 
-h3 {
-    font-size: 1.6875em;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.02em
-}
-
 .personal-description {
     padding: 30px
 }
@@ -46,11 +44,5 @@ h3 {
     width: 75%;
     flex-wrap: wrap;
     gap: 30px;
-}
-.projects-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px
 }
 `;

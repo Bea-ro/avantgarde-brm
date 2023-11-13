@@ -5,6 +5,15 @@ export const Global = createGlobalStyle`
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
 
+@keyframes pulse {
+  0% {
+    transform: scale(1); 
+  }
+  100% {
+    transform: scale(1.1); 
+  }
+}
+
 :root {
   --color-primary: #503295;
   --color-secondary: #FFFFFF;
@@ -16,6 +25,7 @@ export const Global = createGlobalStyle`
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 
 * {
   box-sizing: border-box;

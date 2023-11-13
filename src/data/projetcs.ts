@@ -198,20 +198,4 @@ export const projects: Project[] = [
     github: 'https://github.com/Bea-ro/star-wars-api',
     projectURL: 'https://my-star-wars-api.netlify.app',
   },
-  {
-    image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1698689253/projects/color-flipper-project_neopmb.png',
-    name: 'Color Flipper',
-    main: false,
-    description: 'Dynamic color flipper | JavaScript, Vite.',
-    date: 'December 2022',
-    techs: ['CSS3', 'JavaScript'],
-    requirements: [
-      'dynamic HTML with JavaScript DOM',
-      'select type input',
-      'loops and iteration',
-      'event handling',
-    ],
-    github: 'https://github.com/Bea-ro/color-flipper',
-    projectURL: 'https://color-flipper-bea.netlify.app/',
-  },
   ];

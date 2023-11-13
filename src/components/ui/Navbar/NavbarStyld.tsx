@@ -7,4 +7,5 @@ export const NavbarStyled = styled.nav`
     display: flex;
   gap: 60px;
   }
-`;
+
+`

@@ -1,8 +1,14 @@
-import React from 'react'
+import { WorkStyled } from './WorkStyled'
+
+import ProjectsList from '../../components/ui/ProjectsList/ProjectsList'
+import Title from '../../components/ui/Title/Title'
 
 const Work = () => {
   return (
-    <div>Work</div>
+    <WorkStyled>
+    <Title text="Descubre algunos de los trabajos que he hecho ultimamente"/>
+<ProjectsList/>  
+</WorkStyled>
   )
 }
 
