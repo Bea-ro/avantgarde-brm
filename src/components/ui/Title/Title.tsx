@@ -1,8 +1,8 @@
 import { TitleStyled } from './TitleStyled'
 
-const Title = ({text}: Props) => {
+const Title = ({text, fontSize}: Props) => {
   return ( 
-    <TitleStyled>
+    <TitleStyled fontSize={fontSize}>
        {text}
     </TitleStyled>
   )
@@ -10,6 +10,6 @@ const Title = ({text}: Props) => {
 
 export type Props = {
 text: string
-align?: string
+fontSize?: string
 }
 export default Title

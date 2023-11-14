@@ -1,9 +1,9 @@
 import { styled } from "styled-components";
 
-export const ProjectsListStyled = styled.ul`
+export const ProjectsListStyled = styled.ul<{padding?: string}>`
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    padding: 20px
-
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: ${ (props) => props.padding} ;
+    
 `;

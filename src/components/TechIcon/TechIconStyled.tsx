@@ -5,7 +5,7 @@ figure {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    border: 1.5px solid var(--color-secondary);
+    border: 1.5px solid var(--color-white);
     display: flex;
     flex-direction: column;
     align-items: center;

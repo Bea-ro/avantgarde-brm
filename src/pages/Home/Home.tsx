@@ -14,7 +14,7 @@ const Home = () => {
     <div className="text-container">
     <p className="uppercase-text">Full Stack Developer con experiencia en Marketing</p>
     <Title text="De siempre marketiniana, ahora explorando - y en ello, amando - la programación."/>
-    <p className="personal-description">Soy una tipa poco común. Uncommon techy. 
+    <p className="personal-description">Soy una tipa poco común. Uncommon techie. 
       Me gusta el cambio y la innovación y por eso me he metido de lleno en la programación.
      Llevo un año viviendo intensamente "el código".
       </p>
@@ -30,7 +30,7 @@ const Home = () => {
     <Title text="Mis retos"/>
       <p>Mira lo que he estado haciendo últimamente</p>
     </div>
-    <ProjectsList/>
+    <ProjectsList padding="40px"/>
     <a href="/work" className="button">¡Mola! Quiero ver más</a>
     </section>
     </HomeStyled>

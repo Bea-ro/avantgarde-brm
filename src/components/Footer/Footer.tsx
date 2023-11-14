@@ -6,11 +6,7 @@ const Footer = () => {
     <FooterStyled>
         <p>
         Página creada por{' '}
-        <a
-          href={personalData.profiles[1].link}
-          target="blank"
-          rel="noopener noreferrer"
-        >
+        <a href={personalData.profiles[1].link} target="blank" rel="noopener noreferrer">
           Beatriz Rodríguez
         </a>
       </p>

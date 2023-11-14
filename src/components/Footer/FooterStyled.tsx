@@ -15,6 +15,6 @@ a {
   font-size: 15px;
 }
 a:hover {
-color: var(--color-tertiary)
+color: var(--color-pink)
 }
 `;

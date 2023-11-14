@@ -1,11 +1,17 @@
 import { styled } from "styled-components";
 
 export const NavbarStyled = styled.nav`
-  text-transform: uppercase;
   
   ul {
     display: flex;
-  gap: 60px;
+  gap: 30px;
   }
 
+  a {
+  padding: 8px 10px
+}
+
+a:hover {
+border-bottom: 1px solid var(--color-white)
+}
 `

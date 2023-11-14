@@ -6,12 +6,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
-padding: 20px
-
+padding: 20px;
 }
 
 .personal-img {

@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <WorkStyled>
     <Title text="Descubre algunos de los trabajos que he hecho ultimamente"/>
-<ProjectsList/>  
+<ProjectsList padding="60px"/>  
 </WorkStyled>
   )
 }

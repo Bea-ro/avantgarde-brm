@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 
-export const Global = createGlobalStyle`
+export const Global = createGlobalStyle<{path: string}>`
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
 
@@ -15,9 +15,12 @@ export const Global = createGlobalStyle`
 }
 
 :root {
-  --color-primary: #503295;
-  --color-secondary: #FFFFFF;
-  --color-tertiary: #D2409C;
+  --color-violet: #503295;
+  --color-white: #FFFFFF;
+  --color-pink: #D2409C;
+  --color-purple: #703A94;
+  --color-blue: #2F2A95;
+  --color-light-blue: #3574E3;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -38,8 +41,17 @@ export const Global = createGlobalStyle`
   font-weight: 400;
   line-height: 1.1em;
   font-style: normal;
-  background-color: var(--color-primary);
-  color: var(--color-secondary)
+  background: transparent;
+  color: ${(props) => 
+  props.path === 'contacto' ? 'var(--color-blue)' : 'var(--color-white)'};
+}
+
+body {
+  background: ${(props) => props.path === ''? 
+  'linear-gradient(360deg,var(--color-pink) 0%,var(--color-violet) 100%)' : 
+  props.path === 'work' ? 'linear-gradient(360deg,var(--color-blue) 0%,var(--color-purple) 100%)' :
+  props.path === 'who' ? 'linear-gradient(360deg,var(--color-purple) 0%,var(--color-pink) 100%)' : 
+  'transparent'};
 }
 
 a {
@@ -56,7 +68,7 @@ li {
 
 .button {
   border-radius: 39px;
-  border: 1px solid var(--color-secondary);
+  border: 1px solid var(--color-white);
   text-transform: uppercase;
   font-size: 15px;
   padding: 12px 22px

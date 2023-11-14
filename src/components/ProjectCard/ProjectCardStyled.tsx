@@ -1,8 +1,9 @@
 import { styled } from "styled-components";
 
 export const ProjectCardStyled = styled.li`
-border: 1px solid var(--color-secondary);
-height: 350px;
+border: 1px solid var(--color-white);
+min-height: 350px;
+
 
 img {
     height: 40%;
