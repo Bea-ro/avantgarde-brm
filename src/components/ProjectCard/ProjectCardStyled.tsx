@@ -27,7 +27,4 @@ font-size: 21px;
     text-transform: uppercase;
     font-size: 12px
 }
-
-
-
 `;

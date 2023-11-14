@@ -24,7 +24,7 @@ function App() {
           />
           <Route
             path="/who"
-            element={<Who />            }
+            element={<Who />}
           />
           <Route
             path="/work"

@@ -1,4 +1,3 @@
-import { Project } from "./project"
 import { Tech } from "./tech"
 
 export type PersonalData = {
