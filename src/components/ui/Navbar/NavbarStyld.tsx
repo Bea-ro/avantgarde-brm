@@ -14,4 +14,8 @@ export const NavbarStyled = styled.nav`
 a:hover {
 border-bottom: 1px solid var(--color-white)
 }
+
+@media screen and (max-width: 567px) {
+display: none
+}
 `

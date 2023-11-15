@@ -23,4 +23,8 @@ img {
 img:hover {
   animation: pulse 0.4s infinite alternate;
 }
+
+@media screen and (max-width: 567px) {
+display: none
+}
 `
