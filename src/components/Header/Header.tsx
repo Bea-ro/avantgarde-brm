@@ -1,5 +1,5 @@
 import { HeaderStyled } from './HeaderStyled'
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 
 import Navbar from '../ui/Navbar/Navbar'
 import ProfilesList from '../ui/ProfilesList/ProfilesList'
@@ -10,8 +10,6 @@ import Logo from '../Logo/Logo'
 const Header = () => {
 
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState<boolean>(false) 
-  const burguerRef = useRef<HTMLSpanElement | undefined>(null);
-
 
   const openMobileMenu = () => {
     setMobileMenuIsOpen(!mobileMenuIsOpen);
