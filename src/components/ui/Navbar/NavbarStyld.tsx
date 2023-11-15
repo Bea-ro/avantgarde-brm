@@ -15,7 +15,7 @@ a:hover {
 border-bottom: 1px solid var(--color-white)
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 757px) {
 display: none
 }
 `

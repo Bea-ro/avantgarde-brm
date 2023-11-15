@@ -1,10 +1,10 @@
 import { HeaderStyled } from './HeaderStyled'
-import { useState, useRef, useEffect } from 'react'
-import { personalData } from '../../data/personalData'
+import { useState, useRef } from 'react'
 
 import Navbar from '../ui/Navbar/Navbar'
 import ProfilesList from '../ui/ProfilesList/ProfilesList'
 import MobileMenu from '../ui/MobileMenu/MobileMenu'
+import Logo from '../Logo/Logo'
 
 
 const Header = () => {
@@ -14,23 +14,14 @@ const Header = () => {
 
 
   const openMobileMenu = () => {
-    setMobileMenuIsOpen(true);
+    setMobileMenuIsOpen(!mobileMenuIsOpen);
   }
-
-useEffect(() => {
-  if (burguerRef.current) {
-    burguerRef.current.hidden = mobileMenuIsOpen;
-    console.log(burguerRef.current.className="burguer-hidden")
-  }
-},[mobileMenuIsOpen])
 
   return (
     <HeaderStyled>
-       <a className="personal-logo" href={personalData.profiles[2].link} target="blank" rel="noopener noreferrer">BRM</a>
-       <span className="burguer-menu" onClick={openMobileMenu}
-         ref={burguerRef}
-       >☰</span>
-       <MobileMenu mobileMenuIsOpen={mobileMenuIsOpen}/>
+       {!mobileMenuIsOpen && <Logo/>}
+       {!mobileMenuIsOpen && <span className="burguer" onClick={openMobileMenu}>☰</span>}
+       <MobileMenu mobileMenuIsOpen={mobileMenuIsOpen} openMobileMenu={openMobileMenu}/>
        <Navbar></Navbar>
        <a className="contact-link" href="/contacto" target="blank" rel="noopener noreferrer">Contacto</a>
        <ProfilesList direction="column" position="fixed" right="0"/>

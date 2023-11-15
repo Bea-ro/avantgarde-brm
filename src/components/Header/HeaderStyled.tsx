@@ -8,20 +8,20 @@ export const HeaderStyled = styled.header`
   letter-spacing: 2.1px;
   position: relative;
 
-.personal-logo {
-font-weight: 600
-}
-
 a {
     font-size: 14px;
     font-weight: 500
+}
+
+.logo {
+font-weight: 600
 }
 
 .contact-link:hover {
 border-bottom: 1px solid var(--color-white)
 }
 
-.burguer-menu {
+.burguer {
 display: none;
 font-weight: 500;
 background-color: var(--color-pink);
@@ -29,13 +29,13 @@ padding: 6px;
 border-radius: 3px;
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 757px) {
   justify-content: space-between;
 
-  .burguer-menu {
+  .burguer {
 display: block
   }
-.contact-link, .burguer-hidden {
+.contact-link {
 display: none
 }
 
